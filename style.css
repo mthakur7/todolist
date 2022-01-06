@@ -1,0 +1,198 @@
+html{
+    font-size: 6.25%;
+}
+body{
+    /* background-image: linear-gradient(45deg, #84ECEF 10%, #F8F62F 60%, #FDC018); */
+    background: linear-gradient(to right, blue, pink);
+}
+*{
+    font-family: Verdana, Geneva, Tahomaremsans-serif;
+}
+.h{ margin-top: 0rem;
+    text-align: center;
+    font-size: 50rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+h2{
+    font-size: 40rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+label{
+    font-size: 30rem;
+    margin-right: 460rem;
+}
+#name{
+    width: 600rem;
+    height: 30rem;  
+    
+}
+h5{font-size: 10rem;
+    margin-top: 3rem;
+    margin-right:385rem;
+    opacity: 0.5;
+}
+.bd{
+    display: flex;
+    flex-direction: row;
+    width: 1500rem;
+    /* background-color: palevioletred; */
+    height: 1000rem;
+    margin: 10rem auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.inpcont{
+  
+    display: flex;
+    flex-direction: column;
+    width: 800rem;
+    height: 130rem;
+    /* background-color: rgb(152, 231, 251); */
+    flex-wrap: wrap;   
+    margin-left: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btncont{
+  
+    display: flex;
+    flex-direction: row;
+    width: 500rem;
+    height: 130rem;
+    /* background-color: palegreen; */
+    flex-wrap: wrap;   
+    margin-left: 20rem;
+}
+.listbd{
+    width: 1000rem;
+    height: 700rem;
+    /* background-color: purple; */
+    margin: 60rem auto;
+    display:flex;
+    flex-direction: column;
+    
+}
+.btn{
+    width: 200rem;
+    height: 40rem;   
+    text-align: center;
+    font-size: 20rem;
+    border-radius: 5rem;
+    margin: 10rem;
+    
+}
+.btn:disabled{
+    opacity: 0.6;
+}
+
+#add{
+    background-color:green ;
+    color: honeydew;
+   
+    
+}
+#reset{
+    background-color:red ;
+    color: honeydew;
+ 
+}
+#sort{
+    background-color:blue ;
+    color: honeydew;
+   
+}
+#clean{
+    background-color:yellow ;
+    color:black;
+}
+
+@media screen and (max-width: 998px) and (min-width:500px) {
+    body{
+        background-image: linear-gradient(45deg, #84ECEF 10%, #F8F62F 60%, #FDC018);
+
+    }
+    .bd{
+   
+        width: 700rem;
+        text-align: center;
+      
+    }
+    .inpcont{
+        margin-bottom: 30rem;
+    }
+    .listbd{
+        margin-top: 30rem;
+    }
+    .h{
+        display: block;
+      margin: auto;
+    }
+    
+}
+@media screen and (max-width: 500px) and (min-width:300px) {
+    body{
+        background-image: linear-gradient(45deg, #84ECEF 10%, #F8F62F 60%, #FDC018);
+        /* background: linear-gradient(to right, blue, pink); */
+    }
+    .bd{
+   
+        width: 700rem;
+        height: 1000rem;
+        text-align: center;
+        margin-top: 40rem;
+      
+    }
+    .inpcont{
+       
+        margin-bottom: 30rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 300rem;
+        text-align: center;
+    }
+    
+    .btncont{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 400rem;
+        height: 300rem;
+        text-align: center;
+   
+        margin-bottom: 30rem;
+     
+        
+    }
+    #name{
+        height: 50rem;
+        font-size: 25rem;
+        text-align: center;
+    }
+   h5{
+       font-size: 20rem;
+       margin:0;
+   }
+   label{
+    margin:0;
+    font-weight: bold;
+   }
+   .btn{
+       width: 400rem;
+       height: 70rem;
+   }
+  .h{
+      font-size: 40rem;
+      width: 300rem;
+      text-align: center;
+      margin:0rem 200rem;
+    
+  }
+    
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div class="h">TODO LIST</div>
+   <div class="bd">
+    <div class="inpcont">
+        <label for="name">New Task</label>
+        <input type="text" id="name" placeholder="Enter the name of the task" onkeyup="edResetAdd(this)"  >
+        <h5>A short one line description of your task</h5>
+
+    </div>
+   <!--to get these icons goto: https://fontawesome.com/icons?d=gallery&p=2-->
+    <div class="btncont">
+        <button class="btn" id="add" disabled> <i class="fas fa-plus-square"></i> Add</button>           
+    <button class="btn" id="reset" disabled> <i class="fas fa-backspace"></i> Reset</button>    
+    <button class="btn" id="sort" disabled> <i class="fas fa-sort-amount-down"></i>Sort</button>
+    <button class="btn" id="clean" disabled> <i class="fas fa-trash"></i> Cleanup</button>
+
+    <!-- <button class="btn" id="add" >Add</button>
+    <button class="btn" id="reset" >Reset</button>    
+    <button class="btn" id="sort" >Sort</button>
+    <button class="btn" id="clean">Cleanup</button> -->
+    </div>
+    <div class="listbd">
+        <h2>Task List</h2>
+        <ul id="ull">
+ 
+        </ul>
+        
+    </div>
+   </div>
+   
+
+
+</body>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.js"></script>
+</html>
